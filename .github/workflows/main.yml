@@ -126,27 +126,3 @@ jobs:
           service: ${{ env.ECS_SERVICE }}
           cluster: ${{ env.ECS_CLUSTER }}
           wait-for-service-stability: true
-
-# Web Container Build/Test
-## Get Source
-## Build/Test
-## Docker Image Build
-## Login AWS
-## Push image to ECR
-
-# API Container Build/Test
-## Get Source
-## Build/Test
-## Docker Image Build
-## Login AWS
-## Push image to ECR
-
-# Deploy
-## Get Source
-## Login AWS
-## Edit Task Definition
-## Deploy
-
-
-
-
